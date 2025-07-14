@@ -101,7 +101,7 @@ export default defineComponent({
       default: () => ({})
     }
   },
-  setup(props: any) {
+  setup(props) {
     // Fallback store for standalone mode
     const fallbackStore = reactive({
       users: [],
